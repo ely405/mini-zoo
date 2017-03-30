@@ -1,0 +1,46 @@
+* {
+  font-family: helvetica;
+  box-sizing: border-box;
+  text-align: -webkit-center;
+}
+
+body{
+  background-color: olivedrab;
+}
+
+h1{
+  font-size: -webkit-xxx-large;
+}
+
+section select{
+  margin: 15px;
+  padding: 3px;
+  border-style: none;
+  background-color: greenyellow
+}
+
+#images{
+  width: 915px;
+}
+
+.animal{
+  width: 300px;
+  height:300px;
+  margin: 0;
+}
+
+.sepia{
+  -webkit-filter: sepia(1);
+  filter: sepia(1);
+}
+
+.blanco-negro{
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+}
+
+
+.invertir-colores{
+  -webkit-filter: invert(.8);
+  filter: invert(.8);
+}

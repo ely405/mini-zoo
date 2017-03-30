@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mini zoo</title>
+  <link rel="stylesheet" href="assets/css/main.css" media="screen">
+</head>
+<body>
+  <header>
+    <h1>Mini zoo</h1>
+  </header>
+  <section>
+    <select id="selectedImageEffect">
+      <option value="" hidden>Selecciona una opción</option>
+      <option value="original">Original</option>
+      <option value="sepia" class="sepia">Sepia</option>
+      <option value="blanco-negro" class="blanco-negro">Blanco y negro</option>
+      <option value="invertir-colores" class="invertir-colores">Invertir colores</option>
+    </select>
+  </section>
+  <div id="images">
+    <img src="assets/image/jirafa.jpg" alt="jirafa" class="animal">
+    <img src="assets/image/mapache.jpg" alt="mapache" class="animal">
+    <img src="assets/image/koala.jpg" alt="koala" class="animal">
+    <img src="assets/image/elefante.jpg" alt="elefante" class="animal">
+    <img src="assets/image/mono.jpg" alt="mono" class="animal">
+    <img src="assets/image/tigre.jpg" alt="tigre" class="animal">
+  </div>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>
